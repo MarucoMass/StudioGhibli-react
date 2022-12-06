@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 const ItemDetailMovie = ({item}) => {
     return(
@@ -10,7 +10,7 @@ const ItemDetailMovie = ({item}) => {
             <Link to={'/films'} className='back'>Go back</Link>
             <h1>{item.title}</h1>
         </div>
-        <div className="singleMovie_box">
+        <div className='singleMovie_box'>
             <div className='singleMovie_boxImg'>
                 <img src={item.movie_banner} alt='Banner del film' />
             </div>

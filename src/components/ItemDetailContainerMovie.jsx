@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import ItemDetailMovie from "./ItemDetailMovie";
-import { loadFilm } from "../api/db";
+import ItemDetailMovie from './ItemDetailMovie';
+import { loadFilm } from '../api/db';
 import Footer from './Footer';
 const ItemDetailContainerMovie = () => {
 

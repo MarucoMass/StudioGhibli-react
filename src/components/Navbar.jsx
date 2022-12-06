@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 const Navbar = () => {
     const [estado, setEstado] = useState()
@@ -10,8 +10,8 @@ const Navbar = () => {
 
     const itemClick = () => {
         if (
-            document.querySelector('.header-container .nav-bar .nav-list ul').classList == 'active' 
-            || document.querySelector('.header-container .nav-bar .nav-list .nav-burguer').classList == 'active') 
+            document.querySelector('.header-container .nav-bar .nav-list ul').classList === 'active' 
+            || document.querySelector('.header-container .nav-bar .nav-list .nav-burguer').classList === 'active') 
             {
             document.querySelector('.header-container .nav-bar .nav-list .nav-burguer').classList.toggle('active');
             document.querySelector('.header-container .nav-bar .nav-list ul').classList.toggle('active');   
